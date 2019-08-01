@@ -8,10 +8,12 @@
         android:layout_height="match_parent"
         tools:openDrawer="start"
         tools:context=".MainActivity">
-    <TextView
+    <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World"/>
+            android:text="button"
+            android:id="@+id/btn"
+    />
 
     <com.google.android.material.navigation.NavigationView
             android:id="@+id/nav_layout"
