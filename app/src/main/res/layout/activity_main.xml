@@ -9,11 +9,10 @@
         tools:openDrawer="start"
         tools:context=".MainActivity">
     <com.google.android.material.button.MaterialButton
+            android:id="@+id/material_text_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="button"
-            android:id="@+id/btn"
-    />
+            android:text="button"/>
 
     <com.google.android.material.navigation.NavigationView
             android:id="@+id/nav_layout"
