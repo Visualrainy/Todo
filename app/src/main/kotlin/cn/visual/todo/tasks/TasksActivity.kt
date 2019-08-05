@@ -30,9 +30,7 @@ class TasksActivity : AppCompatActivity() {
 
         drawerLayout = findViewById(R.id.drawer_layout)
         val toggle = ActionBarDrawerToggle(
-            this, drawerLayout, toolbar,
-            R.string.drawer_open,
-            R.string.drawer_close
+            this, drawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close
         )
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
