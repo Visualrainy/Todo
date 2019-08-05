@@ -4,4 +4,7 @@
     <string name="drawer_header_title">Kotlin Todo</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="done">Done</string>
 </resources>
